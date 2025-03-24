@@ -71,4 +71,4 @@ The simulation is built with p5.js and features:
 
 ## License
 
-[MIT License](LICENSE.md)
+[GPL License](LICENSE)
