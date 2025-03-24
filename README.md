@@ -8,6 +8,8 @@ An interactive physics simulation that demonstrates the Doppler effect with real
 
 This simulation allows users to explore the Doppler effect by manipulating a sound source and an observer in a 2D environment. The Doppler effect is the change in frequency of a wave in relation to an observer who is moving relative to the wave source. It is commonly experienced when a vehicle sounding a siren approaches, passes, and recedes from an observer - the received frequency is higher during approach, identical at the instant of passing, and lower during recession.
 
+Try it here:  https://veillette.github.io/dopplerEffect/ 
+
 ## Features
 
 - **Interactive Sound Source and Observer**: Drag either object with your mouse or use keyboard controls
@@ -50,11 +52,6 @@ The simulation is built with p5.js and features:
 - Real-time waveform graphs
 - Velocity vector visualization
 - Multiple visualization layers
-
-## Requirements
-
-- Modern web browser with JavaScript enabled
-- p5.js library (included via CDN in the HTML file)
 
 ## Getting Started
 
