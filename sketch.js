@@ -82,7 +82,7 @@ const CONSTANTS = {
 
   // Keyboard properties
   KEYBOARD: {
-    MOVE_STEP: 10.0, // Speed of keyboard movement (m/s)
+    MOVE_STEP: 60.0, // Speed of keyboard movement (m/s)
     SOUND_SPEED_STEP: 1.0, // Step size for sound speed adjustment (m/s)
     EMITTED_FREQ_STEP: 0.01, // Step size for frequency adjustment (Hz)
     TOGGLE_PAUSE: 32, // Space bar
