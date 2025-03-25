@@ -154,7 +154,7 @@ function colorWithAlpha(inputColor, alpha) {
 }
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(1200, 800);
 
   // Initialize all colors
   initializeColors();
