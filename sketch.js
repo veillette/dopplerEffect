@@ -154,7 +154,7 @@ function colorWithAlpha(inputColor, alpha) {
 }
 
 function setup() {
-  createCanvas(1200, 800);
+  createCanvas((windowWidth, windowHeight);
 
   // Initialize all colors
   initializeColors();
@@ -187,7 +187,14 @@ function setup() {
   lastFrameTime = millis() / 1000;
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight); // Resize canvas on window resize
+}
+
 function draw() {
+
+  windowResized()
+  
   background(CONSTANTS.UI.BACKGROUND_COLOR);
 
   // Calculate delta time for smooth, frame-rate independent animations (in seconds)
